@@ -63,7 +63,6 @@ vendor/lib64/libcne.so
 vendor/lib64/libcneapiclient.so
 vendor/lib64/libcneoplookup.so
 vendor/lib64/libcneqmiutils.so
-vendor/lib64/libjnihelper.so
 vendor/lib64/libwms.so
 vendor/lib64/libwqe.so
 vendor/lib64/libxml.so
@@ -397,8 +396,6 @@ vendor/lib/libqcodec2_v4l2codec.so
 vendor/lib64/libmmosal.so
 
 # Media Configs
-vendor/etc/media_blair/video_system_specs.json
-vendor/etc/media_holi/video_system_specs.json
 vendor/etc/media_codecs.xml
 vendor/etc/media_codecs_blair.xml
 vendor/etc/media_codecs_dolby_audio.xml
@@ -647,8 +644,6 @@ vendor/bin/netmgrd
 vendor/bin/pd-mapper
 vendor/bin/port-bridge
 vendor/bin/qrtr-cfg
-vendor/bin/qrtr-lookup
-vendor/bin/qrtr-ns
 vendor/bin/qti
 vendor/bin/rmt_storage
 vendor/bin/ssgtzd
@@ -657,7 +652,6 @@ vendor/etc/data/dsi_config.xml
 vendor/etc/data/netmgr_config.xml
 vendor/etc/init/dataadpl.rc
 vendor/etc/init/dataqti.rc
-vendor/etc/init/dpmQmiMgr.rc
 vendor/etc/init/init-qcril-data.rc
 vendor/etc/init/netmgrd.rc
 vendor/etc/init/port-bridge.rc
@@ -691,7 +685,6 @@ vendor/lib64/deviceInfoServiceModuleNr.so
 vendor/lib64/libconfigdb.so
 vendor/lib64/liblqe.so
 vendor/lib64/libmdmdetect.so
-vendor/lib64/libmdmdetect.so
 vendor/lib64/libnetmgr.so
 vendor/lib64/libnetmgr_common.so
 vendor/lib64/libnetmgr_nr_fusion.so
@@ -705,7 +698,6 @@ vendor/lib64/libqcrilNrLogger.so
 vendor/lib64/libqcrilNrQtiBus.so
 vendor/lib64/libqcrilNrQtiMutex.so
 vendor/lib64/libqcrildatactl.so
-vendor/lib64/libqrtr.so
 vendor/lib64/libqsap_sdk.so
 vendor/lib64/libqsocket.so
 vendor/lib64/libril-db.so
@@ -714,8 +706,6 @@ vendor/lib64/libril-qc-radioconfig.so
 vendor/lib64/libril-qcril-hook-oem.so
 vendor/lib64/librilqmimiscservices.so
 vendor/lib64/librilqmiservices.so
-vendor/lib64/librilqmiservices.so
-vendor/lib64/librpmb.so
 vendor/lib64/libsystem_health_mon.so
 vendor/lib64/qcrilMarshal.so
 vendor/lib64/qcrild_libqcrilnrutils.so
@@ -723,7 +713,6 @@ vendor/lib64/qtiril-utils.so
 vendor/lib64/qtiwakelock.so
 vendor/lib64/vendor.qti.hardware.data.connection@1.0.so
 vendor/lib64/vendor.qti.hardware.data.connection@1.1.so
-vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
